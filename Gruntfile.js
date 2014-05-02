@@ -79,11 +79,11 @@ module.exports = function(grunt) {
             },
             html: {
                 files: ["<%= files.tempaltes.src %>"],
-                tasks: ["ngtemplates"]
+                tasks: ["copy"]
             },
             templates: {
                 files: ["<%= files.html.src %>"],
-                tasks: ["copy"]
+                tasks: ["ngtemplates"]
             },
             js: {
                 files: ["<%= files.js.src %>"],
