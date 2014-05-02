@@ -15,7 +15,7 @@ Commit the files that you've staged in your local repository.<br />
 <em>git commit -m 'First commit'</em><br />
 # Commits the tracked changes and prepares them to be pushed to a remote repository<br />
 Copy remote repository URL fieldIn your GitHub repository, in the right sidebar, copy the remote repository URL.<br />
-<em>git remote add origin <remote repository URL><em><br />
+<em>git remote add origin remote repository URL<em><br />
 # Sets the new remote<br />
 Push the changes in your local repository to GitHub.<br />
 <em>git push origin master</em><br />

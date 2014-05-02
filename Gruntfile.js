@@ -78,6 +78,10 @@ module.exports = function(grunt) {
                 livereload: true
             },
             html: {
+                files: ["<%= files.tempaltes.src %>"],
+                tasks: ["ngtemplates"]
+            },
+            templates: {
                 files: ["<%= files.html.src %>"],
                 tasks: ["copy"]
             },
