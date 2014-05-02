@@ -1,5 +1,5 @@
 NGBASE
 ======
-Just clone and follow these steps\n
-npm install\n
-bower install\n
+Just clone and follow these steps<br />
+npm install<br />
+bower install<br />
