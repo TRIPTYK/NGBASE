@@ -1,3 +1,3 @@
-angular.module('module', []).controller('mainCtrl', ['', function($scope){
+angular.module('module', []).controller('mainCtrl', ['$scope', function($scope){
 	$scope.name="gillou";
 }]);

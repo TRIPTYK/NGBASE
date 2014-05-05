@@ -46,7 +46,7 @@ module.exports = function(grunt) {
             }
         },
         ngtemplates: {
-            "meteoReaderApp": {
+            "module": {
                 options: {
                     base: "app/templates"
                 },
@@ -78,11 +78,11 @@ module.exports = function(grunt) {
                 livereload: true
             },
             html: {
-                files: ["<%= files.tempaltes.src %>"],
+                files: ["<%= files.html.src %>"],
                 tasks: ["copy"]
             },
             templates: {
-                files: ["<%= files.html.src %>"],
+                files: ["<%= files.templates.src %>"],
                 tasks: ["ngtemplates"]
             },
             js: {
